@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active {
+    @apply text-white font-medium text-base leading-6 p-1 pt-0 border-b-4 border-white;
+  }
+  .nonactive {
+    @apply text-[#BBBDC3] font-medium text-base leading-6;
+  }
+  .blue-title {
+    @apply text-lg font-semibold leading-6 text-blue-700 mb-4;
+  }
+  .black-title {
+    @apply text-4xl font-black leading-10 mb-5;
+  }
+  .desc-text {
+    @apply font-normal text-gray-500 text-lg leading-7 mb-8;
+  }
+  .stats {
+    @apply font-semibold text-xl leading-[30px];
+  }
+  .stats-desc {
+    @apply font-normal text-base leading-[30px] text-gray-500;
+  }
+  .btn {
+    @apply text-base font-semibold leading-6;
+  }
+  .blue-btn {
+    @apply text-white bg-blue-700 py-[12px] px-[26px] rounded-xl;
+  }
+  .white-blue-btn {
+    @apply text-blue-700 bg-white py-[12px] px-[26px] rounded-xl;
+  }
+  .white-btn {
+    @apply bg-white py-[12px] px-[26px] rounded-xl;
+  }
+  .blue-big-btn {
+    @apply text-white bg-blue-700 py-[12px] px-[32px] rounded-xl;
+  }
+  .white-blue-big-btn {
+    @apply text-blue-700 py bg-white py-[12px] px-[32px] rounded-xl;
+  }
+  .blue-card-btn {
+    @apply text-white bg-blue-700 py-[12px] px-[44px] rounded-xl;
+  }
+  .transparent-btn {
+    @apply text-white bg-transparent py-[12px] px-[26px];
+  }
+  .grey-btn {
+    @apply text-gray-700 bg-transparent py-[12px] px-[26px] rounded-xl;
+  }
+  .search-title {
+    @apply font-normal text-base leading-6 text-gray-500;
+  }
+  .search-form {
+    @apply font-semibold text-lg leading-7 text-neutral-800;
+  }
+  .gallery-img {
+    @apply rounded-3xl mb-7;
+  }
+  .card {
+    @apply flex flex-col block rounded-3xl p-6 h-fit w-fit mx-auto bg-white p-5 mb-5;
+  }
+  .card-img {
+    @apply rounded-3xl mb-5 lg:max-h-[250px] aspect-[183/140];
+  }
+  .card-categories {
+    @apply text-blue-700 py-1 px-4 rounded-3xl bg-slate-100 font-medium text-sm leading-[21px] tracking-[0.005em] text-center;
+  }
+  .card-title {
+    @apply text-2xl font-semibold leading-9;
+  }
+  .card-loc {
+    @apply font-medium text-base leading-6;
+  }
+  .exp-card {
+    @apply inline-flex;
+  }
+  .exp-card-img {
+    @apply rounded-full aspect-square w-[64px] mr-3;
+  }
+  .ecd-profil {
+    @apply font-normal text-lg leading-[30px];
+  }
+  .center-items {
+    @apply flex justify-center justify-items-center h-fit;
+  }
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #fafafa;
+}
+
+.center-absolute {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
