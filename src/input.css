@@ -40,7 +40,7 @@
     @apply text-white bg-blue-700 py-[12px] px-[32px] rounded-xl;
   }
   .white-blue-big-btn {
-    @apply text-blue-700 py bg-white py-[12px] px-[32px] rounded-xl;
+    @apply text-blue-700 bg-white py-[12px] px-[32px] rounded-xl;
   }
   .blue-card-btn {
     @apply text-white bg-blue-700 py-[12px] px-[44px] rounded-xl;
@@ -58,7 +58,7 @@
     @apply font-semibold text-lg leading-7 text-neutral-800;
   }
   .gallery-img {
-    @apply rounded-3xl mb-7;
+    @apply rounded-3xl my-auto;
   }
   .card {
     @apply flex flex-col block rounded-3xl p-6 h-fit w-fit mx-auto bg-white p-5 mb-5;
@@ -67,10 +67,13 @@
     @apply rounded-3xl mb-5 lg:max-h-[250px] aspect-[183/140];
   }
   .card-categories {
-    @apply text-blue-700 py-1 px-4 rounded-3xl bg-slate-100 font-medium text-sm leading-[21px] tracking-[0.005em] text-center;
+    @apply text-blue-700 py-1 px-4 rounded-3xl bg-slate-100 font-medium text-sm leading-[21px] tracking-[0.005em] text-center mr-2;
   }
   .card-title {
     @apply text-2xl font-semibold leading-9;
+  }
+  .location {
+    @apply my-3;
   }
   .card-loc {
     @apply font-medium text-base leading-6;
