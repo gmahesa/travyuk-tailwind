@@ -90,6 +90,9 @@
   .center-items {
     @apply flex justify-center justify-items-center h-fit;
   }
+  .child-hover {
+    @apply absolute hidden top-0 bottom-0 right-0 left-0 font-bold text-3xl leading-7 text-white bg-black/50 place-content-center;
+  }
 }
 
 body {
@@ -103,4 +106,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.parent-hover:hover .child-hover {
+  display: flex;
 }

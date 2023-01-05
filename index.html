@@ -13,7 +13,7 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="bg-cover bg-center text-white relative min-h-[95vh] flex flex-col" style="background-image: url('src/images/hero-banner.png')">
+    <header class="bg-cover bg-center text-white relative  flex flex-col" style="background-image: url('src/images/hero-banner.png')">
       <nav class="container mx-auto flex p-[2.5%] items-center">
         <div class="text-left w-full">
           <img src="src/images/Travyuk.png" alt="Logo" />
@@ -100,10 +100,28 @@
     <section id="new-for-you" class="container mx-auto flex justify-center mt-[218px]">
       <div class="container w-11/12 inline-flex">
         <div class="w-7/12">
-          <div class="grid grid-rows-2 grid-flow-col gap-4">
-            <img class="gallery-img" src="src/images/image 4.png" alt="" />
-            <img class="gallery-img" src="src/images/image 5.png" alt="" />
-            <img class="gallery-img row-span-2" src="src/images/image 6.png" alt="" />
+          <div class="grid grid-rows-2 grid-flow-col gap-4 ">
+            
+              <div class="relative w-fit h-fit parent-hover rounded-3xl overflow-hidden">
+                <img  src="src/images/image 5.png" alt="" />
+                <div class="child-hover">
+                  <p class="h-fit m-auto">SPEED BOAT</p> 
+                </div>
+              </div>
+              <div class="relative w-fit h-fit parent-hover rounded-3xl overflow-hidden">
+                <img  src="src/images/image 4.png" alt="" />
+                <div class="child-hover">
+                  <p class="h-fit m-auto">RAFTING</p> 
+                </div>
+              </div>
+              <div class=" row-span-2 relative w-fit h-fit parent-hover rounded-3xl overflow-hidden">
+                <img class="gallery-img " src="src/images/image 6.png" alt="" />
+                <div class="child-hover">
+                  <p class="h-fit m-auto">BANANA BOAT</p> 
+                </div>
+              </div>
+            
+            
           </div>
         </div>
         <div class="flex flex-col w-5/12 container px-7 justify-center">
