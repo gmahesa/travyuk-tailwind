@@ -953,8 +953,20 @@ video {
   height: 510px;
 }
 
+.h-\[520px\] {
+  height: 520px;
+}
+
 .min-h-\[95vh\] {
   min-height: 95vh;
+}
+
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+
+.min-h-\[510px\] {
+  min-height: 510px;
 }
 
 .w-full {
